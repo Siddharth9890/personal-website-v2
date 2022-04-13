@@ -56,7 +56,9 @@ function NavBar() {
               </a>
             ))}
             <a
-              href={require("../../assets/cv.pdf")}
+              href={require("../../assets/Siddharth-Singh-resume.pdf")}
+              target={"_blank"}
+              rel="noreferrer"
               download={true}
               className="text-base font-medium text-lightSlate hover:text-green"
             >
@@ -109,8 +111,10 @@ function NavBar() {
                   </a>
                 ))}
                 <a
-                  href={require("../../assets/cv.pdf")}
+                  href={require("../../assets/Siddharth-Singh-resume.pdf")}
                   download={true}
+                  target={"_blank"}
+                  rel="noreferrer"
                   className="text-base font-medium text-lightSlate hover:text-green"
                 >
                   Resume

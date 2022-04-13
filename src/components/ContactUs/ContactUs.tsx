@@ -3,7 +3,6 @@ import {
   PhoneIcon,
   SupportIcon,
 } from "@heroicons/react/outline";
-import { MailIcon } from "@heroicons/react/outline";
 import Fade from "react-reveal/Fade";
 
 const supportLinks = [
@@ -38,7 +37,8 @@ function ContactUs() {
             my best to get back to you.
           </p>
           <p className="text-center text-lightSlate pb-10">
-            You can select these three social media platforms to directly contact me.
+            You can select these three social media platforms to directly
+            contact me.
           </p>
         </div>
         <main>
