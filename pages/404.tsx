@@ -1,6 +1,5 @@
 import { ChevronRightIcon } from "@heroicons/react/solid";
 import { BookOpenIcon, RssIcon, ViewListIcon } from "@heroicons/react/outline";
-import Link from "next/link";
 
 const links = [
   {

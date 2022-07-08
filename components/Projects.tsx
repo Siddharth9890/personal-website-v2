@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "./Image";
 import { IconExternal, IconGitHub } from "../public/assets/icons";
 import CsTracker from "../public/assets/cs-tracker.png";
 import StartWebApp from "../public/assets/start-web-app.png";
