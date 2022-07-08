@@ -1,0 +1,59 @@
+import { ChevronRightIcon } from "@heroicons/react/outline";
+
+const technologies = [
+  "Typescript/Javascript",
+  "Java",
+  "React",
+  "Node.js",
+  "HTML",
+  "CSS",
+  "MongoDb",
+  "Postgres",
+  "Python",
+  "C",
+];
+
+const description =
+  "Hello! My name is Siddharth and I enjoy creating things that live on the internet. My interest in programming started back in 2017 during my college days writing c code. It taught me a lot about programming in general. ";
+
+const shortDescription =
+  "I have also launched a npm package that helps you to build your projects in a simpler way using nodejs.";
+
+function AboutMe() {
+  return (
+    <section id="about" className="relative py-12 bg-navy overflow-hidden">
+      <div className="relative animate-fade-in-down px-4 sm:px-6 lg:px-8">
+        <div className="text-lg max-w-prose mx-auto">
+          <h1>
+            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-lightestSlate sm:text-4xl">
+              01. About Me
+            </span>
+          </h1>
+          <p className="mt-8 text-xl text-lightSlate leading-8">
+            {description}
+            {shortDescription}
+          </p>
+        </div>
+        <div className="mt-6 prose prose-indigo prose-lg text-lightestSlate mx-auto">
+          <h2 className="text-xl font-extrabold text-center text-white">
+            Here are a few technologies I’ve been working with recently:
+          </h2>
+          <div className="mt-6 mb-10 pt-10">
+            <dl className="space-y-6 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+              {technologies.map((technology, index) => (
+                <div key={index} className="flex justify-center">
+                  <ChevronRightIcon className="h-5 w-5 mr-2 pt-1 text-green" />
+                  <dt className="text-lg leading-6 font-medium text-white">
+                    {technology}
+                  </dt>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default AboutMe;

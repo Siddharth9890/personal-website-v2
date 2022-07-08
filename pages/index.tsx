@@ -1,17 +1,23 @@
-import AboutMe from "./components/About/AboutMe";
-import Blogs from "./components/Blog/Blogs";
-import NavBar from "./components/NavBar/NavBar";
-import ContactUs from "./components/ContactUs/ContactUs";
-import Experience from "./components/Experience/Experience";
-import Header from "./components/Header/Header";
-import OtherProjects from "./components/OtherProjects/OtherProjects";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer/Footer";
+import type { NextPage } from "next";
 import { useEffect, useState } from "react";
-import anime from "animejs";
-import { IconLoader } from "./assets/icons";
 
-function App() {
+import anime from "animejs";
+
+import { IconLoader } from "../public/assets/icons";
+import NavBar from "../components/NavBar";
+import Header from "../components/Header";
+
+import AboutMe from "../components/AboutMe";
+import Experience from "../components/Experience";
+import Footer from "../components/Footer";
+
+import Projects from "../components/Projects";
+import OtherProjects from "../components/OtherProjects";
+
+import Blogs from "../components/Blogs";
+import ContactMe from "../components/ContactMe";
+
+const Home: NextPage = () => {
   const [Loader, setLoader] = useState(true);
   const animate = () => {
     const loader = anime.timeline({
@@ -54,7 +60,7 @@ function App() {
   }, []);
 
   return Loader ? (
-    <div className="flex bg-navy h-screen  justify-center items-center ">
+    <div className="flex bg-black h-screen justify-center items-center ">
       <div className="h-40 w-40">
         <IconLoader />
       </div>
@@ -68,10 +74,10 @@ function App() {
       <Projects />
       <OtherProjects />
       <Blogs />
-      <ContactUs />
+      <ContactMe />
       <Footer />
     </>
   );
-}
+};
 
-export default App;
+export default Home;

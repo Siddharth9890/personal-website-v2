@@ -1,26 +1,30 @@
 import { Fragment } from "react";
+
+import Image from "next/image";
+
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import ProfilePhoto from "../public/assets/ProfilePic.jpg";
 
 const sections = [
   {
-    name: "01.About",
+    name: "01. About",
     section: "#about",
   },
   {
-    name: "02.Education",
+    name: "02. Education",
     section: "#education",
   },
   {
-    name: "03.Projects",
+    name: "03. Projects",
     section: "#projects",
   },
   {
-    name: "04.Blog",
+    name: "04. Blog",
     section: "#blog",
   },
   {
-    name: "05.Contact",
+    name: "05. Contact",
     section: "#contact",
   },
 ];
@@ -31,13 +35,9 @@ function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <img
-                className="h-8 w-auto sm:h-10"
-                src={require("../../assets/ProfilePicturePhoto.jpg")}
-                alt="Profile Photo"
-              />
-            </a>
+            <div className="h-10 w-10">
+              <Image src={ProfilePhoto} alt="Profile Photo" />
+            </div>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -56,9 +56,7 @@ function NavBar() {
               </a>
             ))}
             <a
-              href={require("../../assets/Siddharth-Singh-resume.pdf")}
-              target={"_blank"}
-              rel="noreferrer"
+              href={"/resume.pdf"}
               download={true}
               className="text-base font-medium text-lightSlate hover:text-green"
             >
@@ -85,11 +83,9 @@ function NavBar() {
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <img
-                    className="h-8 w-auto"
-                    src={require("../../assets/ProfilePicturePhoto.jpg")}
-                    alt="Profile picture"
-                  />
+                  <div className="h-10 w-10 sm:h-10">
+                    <Image src={ProfilePhoto} alt="Profile picture" />
+                  </div>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -111,11 +107,9 @@ function NavBar() {
                   </a>
                 ))}
                 <a
-                  href={require("../../assets/Siddharth-Singh-resume.pdf")}
+                  href={"/resume.pdf"}
                   download={true}
-                  target={"_blank"}
-                  rel="noreferrer"
-                  className="text-base font-medium text-lightSlate hover:text-green"
+                  className="text-base font-medium  text-lightSlate hover:text-green"
                 >
                   Resume
                 </a>
