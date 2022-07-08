@@ -17,7 +17,7 @@ const supportLinks = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/siddharth-singh-563824202/",
+    href: "https://www.linkedin.com/in/siddharth9890/",
     icon: NewspaperIcon,
   },
 ];
@@ -35,8 +35,8 @@ function ContactMe() {
           best to get back to you.
         </p>
         <p className="text-center text-lightSlate pb-10">
-          Feel free to use any of these social media platforms to directly contact
-          me.
+          Feel free to use any of these social media platforms to directly
+          contact me.
         </p>
       </div>
       <main>
