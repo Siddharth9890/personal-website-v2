@@ -22,7 +22,7 @@ function Projects() {
                   <span className="h-12 w-12 rounded-md flex items-center justify-center "></span>
                 </div>
 
-                <div className="mt-6">
+                <div className="">
                   <p className="text-xl font-thin mb-2 tracking-tight text-green">
                     Featured Project
                   </p>
@@ -92,7 +92,7 @@ function Projects() {
                 <div>
                   <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600"></span>
                 </div>
-                <div className="mt-6">
+                <div className="">
                   <p className="text-xl mb-2 font-thin tracking-tight text-green">
                     Featured Project
                   </p>

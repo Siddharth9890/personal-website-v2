@@ -17,7 +17,7 @@ const description =
   "Hello! My name is Siddharth and I enjoy creating things that live on the internet. My interest in programming started back in 2017 during my college days writing c code. It taught me a lot about programming in general. ";
 
 const shortDescription =
-  "I have also launched a npm package that helps you to build your projects in a simpler way using nodejs.";
+  "I have also done a full stack internship @Project28 and currently working as Junior Full Stack Web Developer @Gateway.";
 
 function AboutMe() {
   return (

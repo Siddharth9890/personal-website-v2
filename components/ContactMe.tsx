@@ -30,9 +30,9 @@ function ContactMe() {
           05. Contact Me
         </h2>
         <p className="text-center text-lightSlate">
-          I’m currently looking for any new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I’ll try my
-          best to get back to you.
+          I’m currently not looking for any new opportunities,but still my inbox
+          is always open. Whether you have a question or just want to say hi,
+          I’ll try my best to get back to you.
         </p>
         <p className="text-center text-lightSlate pb-10">
           Feel free to use any of these social media platforms to directly
