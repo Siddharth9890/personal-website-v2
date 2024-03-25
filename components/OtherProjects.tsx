@@ -3,11 +3,10 @@ import { IconExternal, IconGitHub } from "../public/assets/icons";
 
 const projects = [
   {
-    name: "Coding Machine",
-    techStack: "REACT NODE.JS TYPESCRIPT DOCKER",
-    description: "Coding machine a online editor to run programs.",
-    githubUrl: "https://github.com/Siddharth9890/coding-machine-frontend",
-    websiteUrl: "https://coding-machine.pages.dev/",
+    name: "Start web app",
+    techStack: "Node.js Cli Package Npmjs",
+    githubUrl: "https://github.com/Siddharth9890/start-web-app",
+    websiteUrl: "https://www.npmjs.com/package/start-web-app",
   },
   {
     name: "Eazy Challenges Solution's",

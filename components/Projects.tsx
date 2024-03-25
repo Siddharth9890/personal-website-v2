@@ -1,7 +1,7 @@
 import Image from "./Image";
 import { IconExternal, IconGitHub } from "../public/assets/icons";
 import CsTracker from "../public/assets/cs-tracker.png";
-import StartWebApp from "../public/assets/start-web-app.png";
+import CodingMachine from "../public/assets/coding-machine.png";
 
 function Projects() {
   return (
@@ -28,19 +28,19 @@ function Projects() {
                   </p>
                   <div className="py-10 px-6 bg-lightNavy hover:bg-lightestNavy text-center rounded-2xl shadow-2xl xl:px-10 xl:text-left">
                     <h2 className="text-3xl font-extrabold tracking-tight text-lightestSlate">
-                      Data structures and algorithm tracker
+                      Coding Machine.
                     </h2>
                     <p className="mt-4 text-lg text-lightSlate">
-                      Take your data structures and algorithms skills to next
-                      level with revision features.
+                      Coding machine a online editor to run programs aka
+                      LeetCode engine.
                     </p>
                     <p className="text-xl font-thin tracking-tight text-lightSlate">
-                      Node.js React Data-Structures Algorithms Tailwind
+                      REACT NODE.JS TYPESCRIPT DOCKER SQS AWS.
                     </p>
                   </div>
                   <div className="mt-6">
                     <a
-                      href="https://github.com/Siddharth9890/cs-tracker-fontend"
+                      href="https://github.com/Siddharth9890/coding-machine-frontend"
                       target={"_blank"}
                       rel="noreferrer"
                       className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-lightestSlate bg-indigo-600 hover:bg-indigo-700"
@@ -50,7 +50,7 @@ function Projects() {
                       </div>
                     </a>
                     <a
-                      href="https://cs-tracker.vercel.app/"
+                      href="https://coding-machine.pages.dev/"
                       target={"_blank"}
                       rel="noreferrer"
                       className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-lightestSlate bg-indigo-600 hover:bg-indigo-700"
@@ -67,8 +67,8 @@ function Projects() {
               <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <Image
                   className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src={CsTracker}
-                  alt="cs-tracker"
+                  src={CodingMachine}
+                  alt="coding-machine-image"
                 />
               </div>
             </div>
@@ -81,8 +81,8 @@ function Projects() {
               <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <Image
                   className="w-full  rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src={StartWebApp}
-                  alt="start-web-app"
+                  src={CsTracker}
+                  alt="cs-tracker-image"
                 />
               </div>
             </div>
@@ -98,21 +98,19 @@ function Projects() {
                   </p>
                   <div className="py-10 px-6 bg-lightNavy hover:bg-lightestNavy text-center rounded-2xl shadow-2xl xl:px-10 xl:text-left">
                     <h2 className="text-3xl font-extrabold tracking-tight text-lightestSlate">
-                      Start web app
+                      Data structures and algorithm tracker.
                     </h2>
                     <p className="mt-4 text-lg text-lightSlate">
-                      It is a simpler way to create all your apps using react
-                      and node. It is simple cli to manage all your project
-                      installations. There are starter options given to start
-                      with😊.
+                      Take your data structures and algorithms skills to next
+                      level with revision features.
                     </p>
                     <p className="text-xl font-thin tracking-tight text-lightSlate">
-                      Node.js Cli Package Npmjs
+                      Node.js React Data-Structures Algorithms Tailwind.
                     </p>
                   </div>
                   <div className="mt-6">
                     <a
-                      href="https://github.com/Siddharth9890/start-web-app"
+                      href="https://github.com/Siddharth9890/cs-tracker-fontend"
                       target={"_blank"}
                       rel="noreferrer"
                       className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-lightestSlate bg-indigo-600 hover:bg-indigo-700"
@@ -122,7 +120,7 @@ function Projects() {
                       </div>
                     </a>
                     <a
-                      href="https://www.npmjs.com/package/start-web-app"
+                      href="https://cs-tracker.vercel.app/"
                       target={"_blank"}
                       rel="noreferrer"
                       className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-lightestSlate bg-indigo-600 hover:bg-indigo-700"

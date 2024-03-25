@@ -18,7 +18,7 @@ import Blogs from "../components/Blogs";
 import ContactMe from "../components/ContactMe";
 
 const Home: NextPage = () => {
-  const [Loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(true);
   const animate = () => {
     const loader = anime.timeline({
       complete: () => setLoader(false),
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
     animate();
   }, []);
 
-  return Loader ? (
+  return loader ? (
     <div className="flex bg-black h-screen justify-center items-center ">
       <div className="h-40 w-40">
         <IconLoader />

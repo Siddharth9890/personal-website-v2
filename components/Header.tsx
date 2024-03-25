@@ -3,9 +3,9 @@ import { ChevronDoubleDownIcon } from "@heroicons/react/outline";
 function Header() {
   const primaryHeading = "Hi, my name is";
   const name = "Siddharth Singh.";
-  const shortDescription = "I build things for the web.";
+  const shortDescription = "Enjoys solving problems.";
   const description =
-    "Pursuing Post Graduation in Computer Science & interested in Full-Stack Development,Scaling Systems ";
+    "Currently working @Gateway as a Software Engineer. Creating software that solves problems.";
 
   return (
     <section id="#header" className="bg-navy">
@@ -19,12 +19,12 @@ function Header() {
               <h2 className="text-5xl font-extrabold text-white sm:text-5xl">
                 <span className="block mt-2">{name}</span>
               </h2>
-              <p className="mt-4 leading-6 text-3xl text-green">
+              <p className="mt-4 leading-6 text-xl text-green">
                 {shortDescription}
               </p>
               <p className="mt-4 leading-6 text-xl text-green">{description}</p>
               <a
-                href="#projects"
+                href="#experience"
                 className="mt-8 bg-lightSlate border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-#5cf6d2 hover:bg-[#5cf6d2]"
               >
                 <ChevronDoubleDownIcon className="h-6 w-6 text-navy" />
