@@ -6,12 +6,12 @@ import {
 
 const supportLinks = [
   {
-    name: "Email Me!",
+    name: "Email",
     href: "mailto:siddharth.a9890@gmail.com",
     icon: InboxIcon,
   },
   {
-    name: "Whatsapp Me!",
+    name: "Whatsapp",
     href: "https://wa.me/+917507294460",
     icon: ChatAlt2Icon,
   },

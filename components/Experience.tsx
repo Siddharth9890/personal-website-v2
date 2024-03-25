@@ -73,9 +73,9 @@ function Experience() {
 
   return (
     <>
-      <section id="education" className="bg-navy">
+      <section id="experience" className="bg-navy">
         <h2 className="text-center animate-fade-in-down text-3xl pb-12 leading-8 font-extrabold tracking-tight text-lightestSlate sm:text-4xl">
-          02. Work Experience/Education
+          02. Work Experience && Education
         </h2>
         <div className="w-full max-w-3xl mx-auto flex   justify-around items-stretch px-2  sm:px-0">
           <ul role="list" className="divide-y divide-gray-200">

@@ -9,23 +9,23 @@ import ProfilePhoto from "../public/assets/ProfilePic.jpg";
 const sections = [
   {
     name: "01. About",
-    section: "#about",
+    href: "#about",
   },
   {
-    name: "02. Education",
-    section: "#education",
+    name: "02. Experience",
+    href: "#experience",
   },
   {
     name: "03. Projects",
-    section: "#projects",
+    href: "#projects",
   },
   {
     name: "04. Blog",
-    section: "#blog",
+    href: "#blog",
   },
   {
     name: "05. Contact",
-    section: "#contact",
+    href: "#contact",
   },
 ];
 
@@ -46,17 +46,17 @@ function NavBar() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            {sections.map((section) => (
+            {sections.map((section, index) => (
               <a
-                key={section.section}
-                href={section.section}
+                key={index}
+                href={section.href}
                 className="text-base font-medium text-lightSlate hover:text-green"
               >
                 {section.name}
               </a>
             ))}
             <a
-              href={"/resume.pdf"}
+              href={"/Siddharth_Singh_Resume.pdf"}
               download={true}
               className="text-base font-medium text-lightSlate hover:text-green"
             >
@@ -97,17 +97,17 @@ function NavBar() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                {sections.map((section) => (
+                {sections.map((section, index) => (
                   <a
-                    key={section.section}
-                    href={section.section}
+                    key={index}
+                    href={section.href}
                     className="text-base font-medium text-lightSlate hover:text-green"
                   >
                     {section.name}
                   </a>
                 ))}
                 <a
-                  href={"/resume.pdf"}
+                  href={"/Siddharth_Singh_Resume.pdf"}
                   download={true}
                   className="text-base font-medium  text-lightSlate hover:text-green"
                 >
