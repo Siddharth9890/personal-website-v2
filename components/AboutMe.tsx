@@ -2,15 +2,17 @@ import { ChevronRightIcon } from "@heroicons/react/outline";
 
 const technologies = [
   "Typescript/Javascript",
+  "AWS",
+  "Docker",
   "Postgres",
   "Node.js",
-  "Next.js",
   "MongoDB",
-  "Postgres",
+  "Next.js",
+  "HTML && CSS",
 ];
 
 const description =
-  "Hello! My name is Siddharth and I enjoy creating softwares that solves problems. My interest in programming started back in 2017 during my college days writing c code. It taught me a lot about programming in general. ";
+  "Hello! My name is Siddharth and I enjoy creating softwares that solves problems. My interest in programming started back in 2017 during my college days writing C code. It taught me a lot about programming in general. ";
 
 const shortDescription =
   "I have also done a full stack internship @Project28 and currently working as Software Engineer @Gateway.";

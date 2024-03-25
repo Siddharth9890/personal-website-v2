@@ -1,18 +1,15 @@
 const posts = [
   {
-    title: "Start-web-app v2.0 You want tailwind support let's get it.",
-    href: "https://theuniquecoder.hashnode.dev/start-web-app-v20-you-want-tailwind-support-lets-get-it",
-    description: "Upgrade notes of start-web-app.",
-    date: "Jul 1, 2022",
-    readingTime: "2 min",
+    title: "MongoDB _id The most important thing that you should know",
+    href: "https://theuniquecoder.hashnode.dev/mongodb-id-the-most-important-thing-that-you-should-know",
+    description: "Importance of primary keys.",
+    date: "Feb 27, 2023",
   },
   {
-    title:
-      "Why we shifted from cloudflare pages to vercel for our website cs-tracker.",
-    href: "https://theuniquecoder.hashnode.dev/why-we-shifted-from-cloudflare-pages-to-vercel-for-our-website-cs-tracker",
-    description: "Read about problems cloudflare pages has.",
-    date: "Jun 20, 2022",
-    readingTime: "3 min",
+    title: "A Tale of Debugging: Debugging Chrome extension.",
+    href: "https://theuniquecoder.hashnode.dev/a-tale-of-debugging-debugging-chrome-extension",
+    description: "Unknown problem of chorme extension.",
+    date: "Feb 25, 2023",
   },
   {
     title:
@@ -20,7 +17,6 @@ const posts = [
     href: "https://theuniquecoder.hashnode.dev/coding-machine-a-online-editor-to-write-programs-and-to-run-it-part-2lets-discuss-about-problems-and-architecture-of-the-app",
     description: "Let's discuss about problems and architecture of the app.",
     date: "Apr 11, 2022",
-    readingTime: "3 min",
   },
 ];
 
@@ -39,7 +35,7 @@ function Blogs() {
             04. From the blog
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-lightSlate sm:mt-4">
-            Sometimes i love writing about projects that i made.
+            Sometimes i love writing about tech && solutions that i made.
           </p>
         </div>
         <div className="mt-12 max-w-lg  mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">

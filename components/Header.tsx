@@ -5,7 +5,7 @@ function Header() {
   const name = "Siddharth Singh.";
   const shortDescription = "Enjoys solving problems.";
   const description =
-    "Currently working @Gateway as a Software Engineer. To create software that works that solves problems.";
+    "Currently working @Gateway as a Software Engineer. Creating software that solves problems.";
 
   return (
     <section id="#header" className="bg-navy">
