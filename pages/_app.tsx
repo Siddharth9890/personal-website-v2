@@ -30,6 +30,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="twitter:title" content={META_TITLE} />
         <meta property="twitter:description" content={META_DESCRIPTION} />
         <meta property="twitter:image" content={`${WEBSITE_URL}og.png`} />
+        <meta
+          name="google-site-verification"
+          content="_K88ie4UhZPdTzbKWQ1pp12VRlRPWnzVAhM73SgUkuo"
+        />
       </Head>
       <Component {...pageProps} />
     </>
