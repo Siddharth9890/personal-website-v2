@@ -8,7 +8,7 @@ const posts = [
   {
     title: "A Tale of Debugging: Debugging Chrome extension.",
     href: "https://theuniquecoder.hashnode.dev/a-tale-of-debugging-debugging-chrome-extension",
-    description: "Unknown problem of chorme extension.",
+    description: "Unknown problem of chrome extension.",
     date: "Feb 25, 2023",
   },
   {
