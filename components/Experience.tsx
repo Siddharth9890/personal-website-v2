@@ -3,15 +3,15 @@ import Timeline from "./TimeLine";
 
 // TODO ADD DIFFERENT COLOR TO BULLET POINTS and add company links
 const masterDetails = [
-  "Pune University (VIIT).",
-  "Currently Pursing Bachelors in Computer Science from VIIT College.",
-  "Average CGPA: 9.10",
+  "Savitribai Phule Pune University (VIIT).",
+  "Completed Masters in Computer Science from VIIT College.",
+  "Grade: 9.33 CGPA",
 ];
 
 const bachelorsDetails = [
-  "Pune University (Nowrosjee Wadia College).",
+  "Savitribai Phule Pune University (Nowrosjee Wadia College).",
   "Completed Bachelors in Computer Science from Nowrosjee Wadia College.",
-  "Final Percentage: 89.59%",
+  "Grade: 9.45 CGPA",
 ];
 
 const collegeDetails = [
@@ -26,20 +26,18 @@ const schoolDetails = [
 ];
 
 const project28Details = [
-  "Built and managed the complete backend API, boosting performance by 20% through dedicated server for file functions. And reduced backend build time by roughly 30%.",
-  "Transformed the backend into microservices for improved efficiency.",
-  "Created a Chrome extension for easy image saving to the app's asset library.",
-  "Improved data retrieval and processing efficiency by optimizing database queries using indexes.",
-  "Optimized database queries using limit.",
-  "Successfully resolved frontend issues for a smoother user experience.",
+  "Built backend API boosting performance by 20% through dedicated file server and reducing build time by 30%",
+  "Transformed monolithic backend into microservices architecture for improved efficiency",
+  "Developed Chrome extension enabling easy image saving to the application’s asset library",
+  "Optimized database performance through query refinement and proper indexing",
 ];
 
 const gatewayDetails = [
-  "Achieved lightning-fast data parsing, processing 300k values in under 10 seconds by changing the CSV file parser and using streams.",
-  "Added indexes for a 35% performance improvement.",
-  "Introduced tab routes and boosted tracking efficiency by an impressive 80%.",
-  "Working on a npm package i.e SDK to enhance accessibility and usability.",
-  "Fixed 100+ bugs on backend GraphQL API.",
+  "Reduced AWS infrastructure costs by $500+ monthly through serverless architecture implementation and resource optimization",
+  "Optimized CSV parser to process 300k values in under 10 seconds using streaming techniques",
+  "Redesigned TypeScript SDK reducing installation size by 82% (300MB to 54MB); extended to Go and Rust platforms with Swagger generation",
+  "Developed RESTful APIs using Golang with Swagger documentation, improving system scalability and performance",
+  "Created proof-of-concept applications and implemented smart contracts according to business requirements",
 ];
 
 function Experience() {
@@ -48,12 +46,12 @@ function Experience() {
   const experienceDetails = [
     {
       name: "Software Engineer @Gateway",
-      timeFrame: "February 2023 - Present",
+      timeFrame: "Feb 2023 - April 2025",
       details: gatewayDetails,
     },
     {
       name: "Full Stack Developer(Internship) @Project 28",
-      timeFrame: "August 2022 - Jan 2023",
+      timeFrame: "Aug 2022 - Dec 2022",
       details: project28Details,
     },
   ];
@@ -61,23 +59,13 @@ function Experience() {
   const educationDetails = [
     {
       name: "Masters of Computer Science",
-      timeFrame: "October 2022 - Present",
+      timeFrame: "Oct 2022 - Jul 2024",
       details: masterDetails,
     },
     {
       name: "Bachelors of Computer Science",
-      timeFrame: "June 2019 - October 2022",
+      timeFrame: "Jun 2019 - Oct 2022",
       details: bachelorsDetails,
-    },
-    {
-      name: "12th - Science",
-      timeFrame: "2017 - 2019",
-      details: collegeDetails,
-    },
-    {
-      name: "10th - Boards",
-      timeFrame: "2017",
-      details: schoolDetails,
     },
   ];
 

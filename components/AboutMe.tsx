@@ -1,14 +1,14 @@
 import { ChevronRightIcon } from "@heroicons/react/outline";
 
 const technologies = [
+  "Go",
   "Typescript/Javascript",
   "AWS",
   "Docker",
   "Postgres",
   "Node.js",
-  "MongoDB",
+  "Rust",
   "Next.js",
-  "HTML && CSS",
 ];
 
 const description =

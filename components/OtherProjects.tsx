@@ -3,6 +3,12 @@ import { IconExternal, IconGitHub } from "../public/assets/icons";
 
 const projects = [
   {
+    name: "Data structures and algorithm tracker.",
+    techStack: "Node.js React Data-Structures Algorithms Tailwind.",
+    githubUrl: "https://github.com/Siddharth9890/start-web-app",
+    websiteUrl: "https://www.npmjs.com/package/start-web-app",
+  },
+  {
     name: "Start web app",
     techStack: "Node.js Cli Package Npmjs",
     githubUrl: "https://github.com/Siddharth9890/start-web-app",
