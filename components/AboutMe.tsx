@@ -23,16 +23,16 @@ function AboutMe() {
       <div className="relative animate-fade-in-down px-4 sm:px-6 lg:px-8">
         <div className="text-lg max-w-prose mx-auto">
           <h1>
-            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-lightestSlate sm:text-4xl">
+            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-lightest-slate sm:text-4xl">
               01. About Me
             </span>
           </h1>
-          <p className="mt-8 text-xl text-lightSlate leading-8">
+          <p className="mt-8 text-xl text-light-slate leading-8">
             {description}
             {shortDescription}
           </p>
         </div>
-        <div className="mt-6 prose prose-indigo prose-lg text-lightestSlate mx-auto">
+        <div className="mt-6 prose prose-indigo prose-lg text-lightest-slate mx-auto">
           <h2 className="text-xl font-extrabold text-center text-white">
             Here are a few technologies I’ve been working with recently:
           </h2>

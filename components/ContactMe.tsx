@@ -26,15 +26,15 @@ function ContactMe() {
   return (
     <section id="contact" className="bg-navy ">
       <div className="space-y-5 animate-fade-in-down sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-lightestSlate sm:text-4xl">
+        <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-lightest-slate sm:text-4xl">
           05. Contact Me
         </h2>
-        <p className="text-center text-lightSlate">
+        <p className="text-center text-light-slate">
           I’m currently not looking for any new opportunities,but still my inbox
           is always open. Whether you have a question or just want to say hi,
           I’ll try my best to get back to you.
         </p>
-        <p className="text-center text-lightSlate pb-10">
+        <p className="text-center text-light-slate pb-10">
           Feel free to use any of these social media platforms to directly
           contact me.
         </p>
@@ -49,7 +49,7 @@ function ContactMe() {
               {supportLinks.map((link) => (
                 <div
                   key={link.name}
-                  className="flex flex-col hover:bg-lightestNavy  bg-lightNavy rounded-2xl shadow-xl"
+                  className="flex flex-col hover:bg-lightest-navy  bg-light-navy rounded-2xl shadow-xl"
                 >
                   <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
                     <div className="absolute top-0 p-5 inline-block bg-navy rounded-xl shadow-lg transform -translate-y-1/2">
@@ -58,7 +58,7 @@ function ContactMe() {
                         aria-hidden="true"
                       />
                     </div>
-                    <h3 className="text-xl font-medium text-lightestSlate">
+                    <h3 className="text-xl font-medium text-lightest-slate">
                       {link.name}
                     </h3>
                   </div>

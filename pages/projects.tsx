@@ -52,25 +52,25 @@ export default function Projects() {
                   <tr>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-lightSlate uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-light-slate uppercase tracking-wider"
                     >
                       Year
                     </th>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-lightSlate uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-light-slate uppercase tracking-wider"
                     >
                       Title
                     </th>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-lightSlate uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-light-slate uppercase tracking-wider"
                     >
                       Made At
                     </th>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-lightSlate uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-light-slate uppercase tracking-wider"
                     >
                       Tech Stack
                     </th>
@@ -85,13 +85,13 @@ export default function Projects() {
                       <td className="px-6 py-4 whitespace-nowrap  text-sm font-medium text-green">
                         {project.year}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-lg  text-lightSlate">
+                      <td className="px-6 py-4 whitespace-nowrap text-lg  text-light-slate">
                         {project.title}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-lightSlate">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-light-slate">
                         {project.madeAt}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-lightSlate">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-light-slate">
                         {project.techStack}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">

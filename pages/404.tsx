@@ -50,7 +50,7 @@ export default function Page404() {
               {links.map((link, linkIdx) => (
                 <li
                   key={linkIdx}
-                  className="relative py-6 flex mt-2 mb-2 bg-lightNavy hover:bg-lightestNavy rounded-2xl shadow-2xl overflow-hidden items-start space-x-4"
+                  className="relative py-6 flex mt-2 mb-2 bg-light-navy hover:bg-lightest-navy rounded-2xl shadow-2xl overflow-hidden items-start space-x-4"
                 >
                   <div className="flex-shrink-0">
                     <span className="flex items-center justify-center h-12 w-12 rounded-lg bg-indigo-50">
@@ -61,7 +61,7 @@ export default function Page404() {
                     </span>
                   </div>
                   <div className="min-w-0 flex-1">
-                    <h3 className="text-lg font-semibold text-lightSlate">
+                    <h3 className="text-lg font-semibold text-light-slate">
                       <span className="rounded-sm">
                         <a href={link.href} className="focus:outline-none">
                           <span
@@ -72,7 +72,7 @@ export default function Page404() {
                         </a>
                       </span>
                     </h3>
-                    <p className="text-base text-lightSlate">
+                    <p className="text-base text-light-slate">
                       {link.description}
                     </p>
                   </div>

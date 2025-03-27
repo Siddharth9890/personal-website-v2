@@ -37,7 +37,7 @@ function OtherProjects() {
       <div className="mx-auto animate-fade-in-down pb-12 px-4 max-w-7xl sm:px-6 lg:px-8">
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-            <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-lightestSlate sm:text-4xl">
+            <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-lightest-slate sm:text-4xl">
               Other Noteworthy Projects
             </h2>
           </div>
@@ -48,7 +48,7 @@ function OtherProjects() {
             {projects.map((project) => (
               <li
                 key={project.name}
-                className="py-10 px-6 bg-lightNavy hover:bg-lightestNavy text-center rounded-2xl shadow-2xl xl:px-10 xl:text-left"
+                className="py-10 px-6 bg-light-navy hover:bg-lightest-navy text-center rounded-2xl shadow-2xl xl:px-10 xl:text-left"
               >
                 <div className="space-y-6 xl:space-y-10">
                   <div className="flex flex-row justify-between ">
@@ -75,9 +75,9 @@ function OtherProjects() {
                   </div>
                   <div className="space-y-2 xl:flex xl:items-center xl:justify-between">
                     <div className="font-medium text-lg leading-6 space-y-1">
-                      <h3 className="text-lightestSlate">{project.name}</h3>
+                      <h3 className="text-lightest-slate">{project.name}</h3>
                       <p className="text-slate">{project.description}</p>
-                      <p className="text-lightSlate pt-10">
+                      <p className="text-light-slate pt-10">
                         {project.techStack}
                       </p>
                     </div>

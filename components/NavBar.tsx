@@ -50,7 +50,7 @@ function NavBar() {
               <a
                 key={index}
                 href={section.href}
-                className="text-base font-medium text-lightSlate hover:text-green"
+                className="text-base font-medium text-light-slate hover:text-green"
               >
                 {section.name}
               </a>
@@ -58,7 +58,7 @@ function NavBar() {
             <a
               href={"/Siddharth_Singh_Resume.pdf"}
               download={true}
-              className="text-base font-medium text-lightSlate hover:text-green"
+              className="text-base font-medium text-light-slate hover:text-green"
             >
               Resume
             </a>
@@ -101,7 +101,7 @@ function NavBar() {
                   <a
                     key={index}
                     href={section.href}
-                    className="text-base font-medium text-lightSlate hover:text-green"
+                    className="text-base font-medium text-light-slate hover:text-green"
                   >
                     {section.name}
                   </a>
@@ -109,7 +109,7 @@ function NavBar() {
                 <a
                   href={"/Siddharth_Singh_Resume.pdf"}
                   download={true}
-                  className="text-base font-medium  text-lightSlate hover:text-green"
+                  className="text-base font-medium  text-light-slate hover:text-green"
                 >
                   Resume
                 </a>

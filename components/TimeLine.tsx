@@ -18,14 +18,14 @@ const Timeline = ({
         >
           <div className="absolute bottom-0 left-[calc(0.5rem-0.5px)] top-0 w-px bg-white group-first:top-3"></div>
           <div className="absolute left-0  top-2 h-4 w-4  rounded-full border border-green bg-green"></div>
-          <h3 className="mt-1 mb-1.5 text-xl order-first font-semibold text-lightSlate">
+          <h3 className="mt-1 mb-1.5 text-xl order-first font-semibold text-light-slate">
             {step.name}
           </h3>
-          <p className="font-display text-sm mb-2 text-lightSlate">
+          <p className="font-display text-sm mb-2 text-light-slate">
             <time dateTime={step.timeFrame}>{step.timeFrame}</time>
           </p>
           {step.details.map((detail, index) => (
-            <p key={index} className="mt-0.5 text-xl text-lightSlate">
+            <p key={index} className="mt-0.5 text-xl text-light-slate">
               - {detail}
             </p>
           ))}

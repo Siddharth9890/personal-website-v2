@@ -10,7 +10,7 @@ function Header() {
   return (
     <section id="#header" className="bg-navy">
       <div className="max-w-7xl mx-auto animate-fade-in-up py-12 px-4 sm:px-6 lg:px-8">
-        <div className="py-10 px-6 bg-lightNavy hover:bg-lightestNavy text-center rounded-2xl shadow-2xl xl:px-10 xl:text-left">
+        <div className="py-10 px-6 bg-light-navy hover:bg-lightest-navy text-center rounded-2xl shadow-2xl xl:px-10 xl:text-left">
           <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
             <div className="lg:self-center">
               <h2 className="text-xl font-extrabold text-white sm:text-xl">

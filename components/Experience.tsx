@@ -72,7 +72,7 @@ function Experience() {
   return (
     <>
       <section id="experience" className="bg-navy">
-        <h2 className="text-center animate-fade-in-down text-3xl pb-12 leading-8 font-extrabold tracking-tight text-lightestSlate sm:text-4xl">
+        <h2 className="text-center animate-fade-in-down text-3xl pb-12 leading-8 font-extrabold tracking-tight text-lightest-slate sm:text-4xl">
           02. Work Experience && Education
         </h2>
         <div className="mx-auto flex justify-around rounded-md shadow">

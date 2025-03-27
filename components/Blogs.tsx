@@ -31,10 +31,10 @@ function Blogs() {
       </div>
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl tracking-tight font-extrabold text-lightestSlate sm:text-4xl">
+          <h2 className="text-3xl tracking-tight font-extrabold text-lightest-slate sm:text-4xl">
             04. From the blog
           </h2>
-          <p className="mt-3 max-w-2xl mx-auto text-xl text-lightSlate sm:mt-4">
+          <p className="mt-3 max-w-2xl mx-auto text-xl text-light-slate sm:mt-4">
             Sometimes i love writing about tech && solutions that i made.
           </p>
         </div>
@@ -42,11 +42,11 @@ function Blogs() {
           {posts.map((post) => (
             <div
               key={post.title}
-              className="flex flex-col bg-lightNavy hover:bg-lightestNavy rounded-2xl shadow-2xl overflow-hidden"
+              className="flex flex-col bg-light-navy hover:bg-lightest-navy rounded-2xl shadow-2xl overflow-hidden"
             >
               <div className="flex-1  p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-lightSlate">
+                  <p className="text-sm font-medium text-light-slate">
                     {post.date}{" "}
                   </p>
 
@@ -56,10 +56,10 @@ function Blogs() {
                     rel="noreferrer"
                     className="block mt-2"
                   >
-                    <p className="text-xl font-semibold text-lightestSlate">
+                    <p className="text-xl font-semibold text-lightest-slate">
                       {post.title}
                     </p>
-                    <p className="mt-3 text-base text-lightestSlate">
+                    <p className="mt-3 text-base text-lightest-slate">
                       {post.description}
                     </p>
                   </a>
