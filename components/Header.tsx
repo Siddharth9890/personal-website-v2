@@ -1,4 +1,4 @@
-import { ChevronDoubleDownIcon } from "@heroicons/react/outline";
+import { ChevronDoubleDownIcon } from "@heroicons/react/24/outline";
 
 function Header() {
   const primaryHeading = "Hi, my name is";

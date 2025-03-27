@@ -1,5 +1,9 @@
-import { ChevronRightIcon } from "@heroicons/react/solid";
-import { BookOpenIcon, RssIcon, ViewListIcon } from "@heroicons/react/outline";
+import { ChevronRightIcon } from "@heroicons/react/24/solid";
+import {
+  BookOpenIcon,
+  RssIcon,
+  ListBulletIcon,
+} from "@heroicons/react/24/outline";
 
 const links = [
   {
@@ -11,7 +15,7 @@ const links = [
   {
     title: "Contact Me",
     description: "Visit the contact page!",
-    icon: ViewListIcon,
+    icon: ListBulletIcon,
     href: "/#contact",
   },
   {

@@ -11,8 +11,11 @@ const Timeline = ({
 }) => {
   return (
     <ul role="list" className="m-8 max-w-screen-md">
-      {steps.map((step) => (
-        <li className="group relative flex flex-col pb-6 pl-7 last:pb-0">
+      {steps.map((step, index) => (
+        <li
+          key={index}
+          className="group relative flex flex-col pb-6 pl-7 last:pb-0"
+        >
           <div className="absolute bottom-0 left-[calc(0.5rem-0.5px)] top-0 w-px bg-white group-first:top-3"></div>
           <div className="absolute left-0  top-2 h-4 w-4  rounded-full border border-green bg-green"></div>
           <h3 className="mt-1 mb-1.5 text-xl order-first font-semibold text-lightSlate">

@@ -1,8 +1,8 @@
 import {
   NewspaperIcon,
   InboxIcon,
-  ChatAlt2Icon,
-} from "@heroicons/react/outline";
+  ChatBubbleBottomCenterIcon,
+} from "@heroicons/react/24/outline";
 
 const supportLinks = [
   {
@@ -13,7 +13,7 @@ const supportLinks = [
   {
     name: "Whatsapp",
     href: "https://wa.me/+917507294460",
-    icon: ChatAlt2Icon,
+    icon: ChatBubbleBottomCenterIcon,
   },
   {
     name: "Linkedin",
